@@ -1,0 +1,147 @@
+{
+  "personal": {
+    "legalName": "Georges Haidar",
+    "preferredName": "George Haidar",
+    "phone": "+61424275897",
+    "email": "ghaidar0@gmail.com"
+  },
+  "location": {
+    "city": "Sydney",
+    "country": "Australia"
+  },
+  "profiles": [
+    { "name": "Github", "username": "disintegrator", "website": "https://github.com/disintegrator" },
+    { "name": "Twitter", "username": "ghaidar0", "website": "https://github.com/ghaidar0" },
+    { "name": "LinkedIn", "username": "Georges Haidar", "website": "https://au.linkedin.com/in/georges-haidar-a9314123" },
+    { "name": "Keybase", "username": "disintegrator", "website": "https://keybase.io/disintegrator" }
+  ],
+  "skills": [
+    { "category": "Front-end", "keywords": ["ES6", "React", "Redux", "Webpack"] },
+    { "category": "Back-end", "keywords": ["Node.js", "Go", "Express (Node.js)", "Gin (Go)", "Python"] },
+    { "category": "Ops", "keywords": ["AWS", "Terraform", "Docker", "ConcourseCI", "Splunk"] }
+  ],
+  "education": [
+    { "institution": "University of Technology Sydney", "qualification": "Bachelor of Engineering (Computer Systems)" }
+  ],
+  "projects": [
+    {
+      "name": "seneca-amqp-transport",
+      "description": "Official AMQP transport plugin for Seneca. This plugin allows seneca listeners and clients to communicate over AMQP.",
+      "website": "https://github.com/senecajs/seneca-amqp-transport"
+    },
+    {
+      "name": "twelvejs",
+      "description": "Utilities to assist in building 12Factor apps.",
+      "website": "https://github.com/disintegrator/twelvejs"
+    },
+    {
+      "name": "mongoose-encrypted",
+      "description": "Mongoose plugin and schema type for working with encrypted data.",
+      "website": "https://github.com/disintegrator/mongoose-encrypted"
+    },
+    {
+      "name": "mongodb-oplog-publisher",
+      "description": "Daemon that watches mongodb oplog and publishes events to RabbitMQ.",
+      "website": "https://github.com/disintegrator/mongodb-oplog-publisher"
+    }
+  ],
+  "work": [
+    {
+      "startDate": "2016",
+      "organization": "MYOB",
+      "website": "https://www.myob.com/au",
+      "position": "Development Lead",
+      "description": "As a development lead at MYOB, my role carries a lot of responsibilities within my team and across the greater group of around 270 MYOB developers. My team consists of 6 developers and QA analysts that work on Tax Online - an online service for managing and lodging tax obligations used by both SME clients and tax agents in the ANZ region.",
+      "highlights": [
+        "Develop the technical roadmap for our project alongside our feature roadmap",
+        "Develop in our codebases just like all the developers in my team, introduce **Docker** and **AWS ECS** to assist in developing and deploying micro-services quickly, review pull requests and coach team members on coding standards and quality",
+        "Introduce continuous delivery practices by deploying and migrating to **ConcourseCI** from our previously abandoned GoCD snowflake server (built by contractors that have since left). We have seen a great increase in reliable deployments everyday since its introduction.",
+        "AWS infrastructure automation using **Terraform** and improving our logging, monitoring and alerting practices by using tools such as **Bunyan, Splunk, NewRelic, AWS CloudWatch and Pagerduty**",
+        "Contribute to and maintain the company's shared stylesheet and [React widgets](https://myob-technology.github.io/myob_widgets/) project",
+        "Take part in working groups to develop company standards for our ops, front-end and back-end practices. These revolve around our use of AWS, Terraform, React and Node.js",
+        "Hold **regular one on one meetings** with my team members to give them feedback and directions and discuss their thoughts about our work.",
+        "Help my team apply principles of agile development by holding regular **sprint planning sessions**, **inceptions**, **retrospectives** and **pulse checks** with the clear aim of giving them the ability to self-determine the course of our project.",
+        "Encourage a culture of learning and development by **hosting regular knowledge sharing sessions** and **design and architecture workshops**."
+      ]
+    },
+    {
+      "startDate": "2015", "endDate": "2016",
+      "organization": "The Ticket Fairy",
+      "website": "https://www.theticketfairy.com",
+      "position": "Consultant Software Enginer",
+      "description": "I joined The Ticket Fairy, an events management platform, as it's first developer. I worked on building the next version of the platform using modern and open tools.",
+      "highlights": [
+        "Redeveloped the main site with new brand identity",
+        "Built the an overhauled events management dashboard for events organisers using React, Redux and AdminLTE",
+        "Created a link shortener using Go and RethinkDB similar to bit.ly. It allows users specifies to setup multiple links of which one is chosen randomly or based on a visitor's country (uses MaxMind GeoIP2)",
+        "Deployed and managed a Mesosphere + CoreOS cluster that runs a small set of dockerized services. It was intended to support more and more services as they are developed."
+      ]
+    },
+    {
+      "startDate": "2014", "endDate": "2015",
+      "organization": "Alphatise",
+      "website": "http://alphatise.com/",
+      "position": "Technical Director",
+      "description": "I was the first developer at Alphatise (https://www.alphatise.com/) and the only back-end developer since the start of the company. I built the platform’s back-end from the ground up as several Node.js services and designed the CoreOS + Docker production deployment. As a director, I am responsible for advising the business in matters relating to evolving the platform with new features: effort required, complexity and return on investment of features.",
+      "highlights": [
+        "Designed, implemented and documented all APIs for the platform using Node.js + CoffeeScript, Express, Kue, Socket.io, MongoDB, Elasticsearch, Redis and Apiary.",
+        "Applied 12 factor methodology to create stateless services with nice configuration and logging and awareness of connected services. I created a library and open sourced it based on the concepts called [twelvejs](https://github.com/disintegrator/twelvejs)",
+        "Managed first production deployment on Rackspace",
+        "Moved production environment to AWS with fully dockerised node.js services running on CoreOS. All services were redundant, providing a good level of availability. This allowed us to roll out features very rapidly (almost daily and at least once every week).",
+        "Hired and lead the front-end teams (web and native) to deliver the Alphatise tech platform"
+      ]
+    },
+    {
+      "startDate": "2013", "endDate": "2014",
+      "organization": "Booodl",
+      "website": "https://booodl.com/",
+      "position": "Lead Front-end Developer",
+      "description": "I joined Booodl (http://booodl.com) on the basis that I would help introduce front-end development experience into their front-end team (consisting of a junior developer and a formerly back-end developer). Soon after joining and proving my skills, I was made the lead front-end developer.",
+      "highlights": [
+        "As the lead, I scope out sprints, allocate tasks to my team and deal extensively with design and product teams to contribute design and technical insights",
+        "My role also involved mentoring the other developers, reviewing their code and managing its delivery via pull requests",
+        "Set up the development stack for the dev team using Backbone.js + Marionette.js wrapped in Require.js. Styling is done with SASS/SCSS using BEM (block, element, modifier) semantics. This is all built and bundled up using grunt.js.",
+        "I introduced testing using karma, mocha, chai and sinon",
+        "Developed an internal style guide for our site (kind of like bootstrap)."
+      ]
+    },
+    {
+      "startDate": "2012", "endDate": "2013",
+      "organization": "Pollen Digital",
+      "website": "http://www.pollen.com.au/",
+      "position": "Lead Developer",
+      "description": "I was the only developer employed at Pollen handling all the development for new business since my arrival. My role required that I posses a range of development skills (or, in some cases, acquire them very quickly) in order to deliver projects within very short time frames.",
+      "highlights": [
+        "Front-end and back-end development. Some of the projects I worked on are: Lord Nelson Brewery Hotel (http://lordnelsonbrewery.com/), Woolworths Christmas 2012, Various HCF micro-sites which are no longer published and many white sites, prototypes and email templates for various clients",
+        "Work closely with designers to ensure pixel perfect, responsive websites and in general inform them where technology constraints or opportunities are present",
+        "Responsible for researching and picking the tools that best suit every new job we get"
+      ]
+    },
+    {
+      "startDate": "2011", "endDate": "2012",
+      "organization": "Brands Exclusive",
+      "website": "https://brandsexclusive.com.au/",
+      "position": "Web Developer",
+      "description": "I worked at brandsExclusive - an online retailer - as a Python-based web developer. The company operates a site that is written in Django for the most part.",
+      "highlights": [
+        "Worked closely with web designers to deliver new features on the main sites (http:// www.brandsexclusive.com.au/ and https://www.livingexclusive.com.au/) as well as with the rest of the developers to fix bugs and issues that appear from time to time.",
+        "On the front-end, I was responsible for developing the theme that is presented on brandsExclusive and livingExclusive.",
+        "Developed an iOS app to go with a bluetooth handheld scanner for use as a logistics tool at the warehouse.",
+        "Developed the live feed on the brandsExclusive site that was backed by Node.js, Socket.IO and Redis",
+        "Briefly involved in the development and maintenance of the brandsExclusive iPhone app"
+      ]
+    },
+    {
+      "startDate": "2009", "endDate": "2011",
+      "organization": "IBM",
+      "website": "http://www-07.ibm.com/au/adl/",
+      "position": "Associate Software Engineer"
+    },
+    {
+      "startDate": "2006", "endDate": "2009",
+      "organization": "Avolution",
+      "website": "http://www.avolutionsoftware.com/",
+      "position": "Software Engineer"
+    }
+  ]
+}

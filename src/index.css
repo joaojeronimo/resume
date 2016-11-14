@@ -1,0 +1,56 @@
+body {
+  min-height: 100vh;
+}
+
+.hack h1,
+.standard h1 {
+  font-size: 1.4rem;
+}
+
+.hack h2,
+.standard h2 {
+  font-size: 1.2rem;
+}
+
+.hack main, .hack section, .hack ul, .hack p,
+.standard main, .standard section, .standard ul, .standard p {
+  margin: 0 0 20px;
+}
+
+.hack ul.unstyled,
+.standard ul.unstyled {
+  padding: 0;
+  list-style: none;
+}
+
+.hack ul.unstyled > li,
+.standard ul.unstyled > li {
+  padding-left: 0;
+}
+
+.hack ul.unstyled > li:after,
+.standard ul.unstyled > li:after {
+  display: none;
+}
+
+.sr-only.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.text-compact p {
+  margin: 0;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@disintegrator/resume",
+  "version": "1.0.0",
+  "description": "This developer's résumé",
+  "keywords": [
+    "resume"
+  ],
+  "author": "Georges Haidar <ghaidar0@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/disintegrator/resume/issues"
+  },
+  "homepage": "https://github.com/disintegrator/resume#readme",
+  "devDependencies": {
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "lodash.get": "^4.4.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-markdown": "^2.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
