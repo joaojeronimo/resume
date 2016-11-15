@@ -8,8 +8,8 @@ const WorkHistory = ({ list }) => (
         list.map(({ startDate, endDate, organization, position }, i) => (
           <li key={i}>
             <div className="grid">
-              <span className="cell -3of12">{organization}</span>
-              <strong className="cell -4of12">{position}</strong>
+              <strong className="cell -3of12">{organization}</strong>
+              <span className="cell -4of12">{position}</span>
               <span className="cell -2of12">{startDate}—{endDate || 'current'}</span>
             </div>
           </li>
