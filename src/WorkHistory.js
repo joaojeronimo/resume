@@ -3,7 +3,7 @@ import React from 'react';
 const WorkHistory = ({ list }) => (
   <section>
     <h2>Work History</h2>
-    <ul className="unstyled">
+    <ul>
       {
         list.map(({ startDate, endDate, organization, position }, i) => (
           <li key={i}>
