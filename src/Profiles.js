@@ -1,4 +1,7 @@
+// @flow
+
 import React from 'react';
+import type { Profile } from './types';
 
 const iconClasses = {
   github: 'fa fa-lg fa-github',
@@ -14,7 +17,7 @@ const icon = name => {
   return <span className={iconClasses[name.toLowerCase()]} />;
 };
 
-const Profiles = ({ list }) => (
+const Profiles = ({ list }: { list: Profile[] }) => (
   <section>
     <header>
       <h2 className="sr-only">Profiles</h2>

@@ -1,6 +1,6 @@
-import get from 'lodash.get';
+// @flow
+
 import React from 'react';
-import propTypes from './propTypes';
 import ContactDetails from './ContactDetails';
 import Education from './Education';
 import WorkDetails from './WorkDetails';
@@ -8,14 +8,19 @@ import WorkHistory from './WorkHistory';
 import Projects from './Projects';
 import Profiles from './Profiles';
 import Skills from './Skills';
+import type { Resume } from './types';
 
-const App = ({ resume }) => {
-  const { personal, location } = resume;
-  const profiles = get(resume, 'profiles', []);
-  const education = get(resume, 'education', []);
-  const projects = get(resume, 'projects', []);
-  const skills = get(resume, 'skills', []);
-  const work = get(resume, 'work', []);
+const App = ({ resume }: { resume: Resume }) => {
+  const {
+    personal,
+    location,
+    profiles = [],
+    education = [],
+    projects = [],
+    skills = [],
+    work = [],
+  } = resume;
+
   return (
     <div className="container">
       <main>
@@ -23,6 +28,7 @@ const App = ({ resume }) => {
           <h1>{personal.preferredName}</h1>
         </header>
         <ContactDetails
+          preferredName={personal.preferredName}
           email={personal.email}
           city={location.city}
           country={location.country}
@@ -37,10 +43,6 @@ const App = ({ resume }) => {
       </main>
     </div>
   );
-};
-
-App.propTypes = {
-  resume: propTypes.resume.isRequired,
 };
 
 export default App;

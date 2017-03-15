@@ -1,6 +1,9 @@
-import React from 'react';
+// @flow
 
-const WorkHistory = ({ list }) => (
+import React from 'react';
+import type { Work } from './types';
+
+const WorkHistory = ({ list }: { list: Work[] }) => (
   <section>
     <h2>Work History</h2>
     <ul>

@@ -12,21 +12,24 @@
   },
   "homepage": "https://disintegrator.github.com/resume/",
   "devDependencies": {
+    "flow-bin": "^0.41.0",
+    "flow-typed": "^2.0.0",
+    "prettier": "^0.22.0",
     "react-scripts": "^0.9.5"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "lodash.get": "^4.4.2",
-    "prettier": "^0.22.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-markdown": "^2.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "build": "flow check && npm run test && react-scripts build",
+    "test": "CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prettier": "prettier --parser=flow --single-quote --trailing-comma=all --write src/**/*.js"
+    "prettier": "prettier --parser=flow --single-quote --trailing-comma=all --write src/**/*.js",
+    "flow": "flow",
+    "flow-typed": "flow-typed"
   }
 }

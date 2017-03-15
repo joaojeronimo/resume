@@ -1,5 +1,8 @@
+// @flow
+
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import type { Work } from './types';
 
 const WorkEntry = (
   {
@@ -43,7 +46,7 @@ WorkEntry.defaultProps = {
   endDate: 'current',
   highlights: [],
 };
-const WorkDetails = ({ list }) => (
+const WorkDetails = ({ list }: { list: Work[] }) => (
   <section>
     <header>
       <h2>Work Details <small>(5 most recent)</small></h2>

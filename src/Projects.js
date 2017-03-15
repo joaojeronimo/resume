@@ -1,6 +1,9 @@
-import React from 'react';
+// @flow
 
-const Projects = ({ list }) => (
+import React from 'react';
+import type { Project } from './types';
+
+const Projects = ({ list }: { list: Project[] }) => (
   <section>
     <header>
       <h2>Projects</h2>
