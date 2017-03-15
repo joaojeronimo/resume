@@ -3,7 +3,6 @@ import { PropTypes } from 'react';
 const personal = PropTypes.shape({
   preferredName: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
-  phone: PropTypes.string.isRequired,
 });
 
 const location = PropTypes.shape({
@@ -67,9 +66,14 @@ export default {
   resume,
   personal,
   location,
-  education, educationList,
-  profile, profileList,
-  project, projectList,
-  skill, skillList,
-  work, workList,
+  education,
+  educationList,
+  profile,
+  profileList,
+  project,
+  projectList,
+  skill,
+  skillList,
+  work,
+  workList,
 };

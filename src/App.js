@@ -23,7 +23,6 @@ const App = ({ resume }) => {
           <h1>{personal.preferredName}</h1>
         </header>
         <ContactDetails
-          phone={personal.phone}
           email={personal.email}
           city={location.city}
           country={location.country}
