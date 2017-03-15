@@ -10,18 +10,63 @@
     "country": "Australia"
   },
   "profiles": [
-    { "name": "Github", "username": "disintegrator", "website": "https://github.com/disintegrator" },
-    { "name": "Twitter", "username": "ghaidar0", "website": "https://github.com/ghaidar0" },
-    { "name": "LinkedIn", "username": "Georges Haidar", "website": "https://au.linkedin.com/in/georges-haidar-a9314123" },
-    { "name": "Keybase", "username": "disintegrator", "website": "https://keybase.io/disintegrator" }
+    {
+      "name": "Github",
+      "username": "disintegrator",
+      "website": "https://github.com/disintegrator"
+    },
+    {
+      "name": "Twitter",
+      "username": "ghaidar0",
+      "website": "https://github.com/ghaidar0"
+    },
+    {
+      "name": "LinkedIn",
+      "username": "Georges Haidar",
+      "website": "https://au.linkedin.com/in/georges-haidar-a9314123"
+    },
+    {
+      "name": "Keybase",
+      "username": "disintegrator",
+      "website": "https://keybase.io/disintegrator"
+    }
   ],
   "skills": [
-    { "category": "Front-end", "keywords": ["ES6", "React", "Redux", "Webpack"] },
-    { "category": "Back-end", "keywords": ["Node.js", "Go", "Express (Node.js)", "Gin (Go)", "Python"] },
-    { "category": "Ops", "keywords": ["AWS", "Terraform", "Docker", "ConcourseCI", "Splunk"] }
+    {
+      "category": "Front-end",
+      "keywords": [
+        "ES6",
+        "React",
+        "Redux",
+        "Webpack"
+      ]
+    },
+    {
+      "category": "Back-end",
+      "keywords": [
+        "Node.js",
+        "Go",
+        "Express (Node.js)",
+        "Gin (Go)",
+        "Python"
+      ]
+    },
+    {
+      "category": "Ops",
+      "keywords": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "ConcourseCI",
+        "Splunk"
+      ]
+    }
   ],
   "education": [
-    { "institution": "University of Technology Sydney", "qualification": "Bachelor of Engineering (Computer Systems)" }
+    {
+      "institution": "University of Technology Sydney",
+      "qualification": "Bachelor of Engineering (Computer Systems)"
+    }
   ],
   "projects": [
     {
@@ -65,7 +110,8 @@
       ]
     },
     {
-      "startDate": "2015", "endDate": "2016",
+      "startDate": "2015",
+      "endDate": "2016",
       "organization": "The Ticket Fairy",
       "website": "https://www.theticketfairy.com",
       "position": "Consultant Software Enginer",
@@ -78,7 +124,8 @@
       ]
     },
     {
-      "startDate": "2014", "endDate": "2015",
+      "startDate": "2014",
+      "endDate": "2015",
       "organization": "Alphatise",
       "website": "http://alphatise.com/",
       "position": "Technical Director",
@@ -92,7 +139,8 @@
       ]
     },
     {
-      "startDate": "2013", "endDate": "2014",
+      "startDate": "2013",
+      "endDate": "2014",
       "organization": "Booodl",
       "website": "https://booodl.com/",
       "position": "Lead Front-end Developer",
@@ -106,7 +154,8 @@
       ]
     },
     {
-      "startDate": "2012", "endDate": "2013",
+      "startDate": "2012",
+      "endDate": "2013",
       "organization": "Pollen Digital",
       "website": "http://www.pollen.com.au/",
       "position": "Lead Developer",
@@ -118,7 +167,8 @@
       ]
     },
     {
-      "startDate": "2011", "endDate": "2012",
+      "startDate": "2011",
+      "endDate": "2012",
       "organization": "Brands Exclusive",
       "website": "https://brandsexclusive.com.au/",
       "position": "Web Developer",
@@ -132,13 +182,15 @@
       ]
     },
     {
-      "startDate": "2009", "endDate": "2011",
+      "startDate": "2009",
+      "endDate": "2011",
       "organization": "IBM",
       "website": "http://www-07.ibm.com/au/adl/",
       "position": "Associate Software Engineer"
     },
     {
-      "startDate": "2006", "endDate": "2009",
+      "startDate": "2006",
+      "endDate": "2009",
       "organization": "Avolution",
       "website": "http://www.avolutionsoftware.com/",
       "position": "Software Engineer"

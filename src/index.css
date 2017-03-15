@@ -63,4 +63,17 @@ body {
 }
 @media print {
 	.page-break	{ display: block; page-break-before: always; }
+  .block-print { display: block; }
+  .print-expanded {
+    display: inline-block;
+    color: black;
+    border-bottom: none;
+  }
+  .print-expanded:after {
+    content: attr(href);
+    display: inline-block;
+    margin-left: 0.4rem;
+    color: #ff2e88;
+    border-bottom: 1px solid #ff2e88;
+  }
 }
