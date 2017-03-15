@@ -91,7 +91,22 @@
   ],
   "work": [
     {
+      "startDate": "2017",
+      "organization": "Digital Transformation Agency",
+      "website": "https://www.dta.gov.au/",
+      "position": "Consultant Software Engineer",
+      "description": "I am helping build an identity provider for use in verifying people's identities when attempting to access online government services. This role places heavy focus on applying modern technologies such as **React, Redux and Go** to build reliable and accessible services for **all** Australian citizens.",
+      "highlights": [
+        "Develop an accessible front-end using **React (Create React App)**, **Redux** and **Flow**",
+        "Develop back-end APIs using Go and Gin web framework",
+        "Attended frequent user testing sessions that help my team and I improve the usability of our service",
+        "Work in a kanban-style, 2-week sprints and present at company-wide showcases",
+        "…and a lot more to come!"
+      ]
+    },
+    {
       "startDate": "2016",
+      "endDate": "2017",
       "organization": "MYOB",
       "website": "https://www.myob.com/au",
       "position": "Development Lead",

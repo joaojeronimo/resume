@@ -58,10 +58,14 @@ body {
   margin: 0;
 }
 
+.text-right { text-align: right; }
+
 @media all {
+  .print-only { display: none; }
 	.page-break	{ display: none; }
 }
 @media print {
+  .print-only { display: block; }
 	.page-break	{ display: block; page-break-before: always; }
   .block-print { display: block; }
   .print-expanded {

@@ -49,10 +49,10 @@ WorkEntry.defaultProps = {
 const WorkDetails = ({ list }: { list: Work[] }) => (
   <section>
     <header>
-      <h2>Work Details <small>(5 most recent)</small></h2>
+      <h2>Work Details</h2>
     </header>
     <ul className="unstyled">
-      {list.slice(0, 5).map((el, i) => <WorkEntry {...el} key={i} />)}
+      {list.map((el, i) => <WorkEntry {...el} key={i} />)}
     </ul>
   </section>
 );

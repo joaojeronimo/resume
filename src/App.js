@@ -40,6 +40,26 @@ const App = ({ resume }: { resume: Resume }) => {
         {education.length && <Education list={education} />}
         <div className="page-break" />
         {work.length && <WorkDetails list={work} />}
+
+        <aside className="text-right">
+          <p>
+            <small>
+              This document is hosted at:
+              {' '}
+              <a href="https://disintegrator.github.io/resume/">
+                https://disintegrator.github.io/resume/
+              </a>
+            </small>
+            <br />
+            <small>
+              The source code is available at:
+              {' '}
+              <a href="https://github.com/disintegrator/resume">
+                https://github.com/disintegrator/resume
+              </a>
+            </small>
+          </p>
+        </aside>
       </main>
     </div>
   );
