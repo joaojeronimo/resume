@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "javascript.validate.enable": false,
+  "editor.formatOnSave": true,
+  "prettier.parser": "flow",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "flow.useNPMPackagedFlow": true
+}
