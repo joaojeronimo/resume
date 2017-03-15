@@ -6,11 +6,11 @@ const Skills = ({ list }) => (
       <h2>Skills</h2>
     </header>
     <ul>
-      {
-        list.map(({category, keywords}, i) => (
-          <li key={i}><strong>{category}:</strong> <span>{keywords.join(', ')}</span></li>
-        ))
-      }
+      {list.map(({ category, keywords }, i) => (
+        <li key={i}>
+          <strong>{category}:</strong> <span>{keywords.join(', ')}</span>
+        </li>
+      ))}
     </ul>
   </section>
 );

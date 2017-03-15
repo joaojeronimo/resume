@@ -5,7 +5,4 @@ import 'font-awesome/css/font-awesome.css';
 import resume from './resume.json';
 import './index.css';
 
-ReactDOM.render(
-  <App resume={resume} />,
-  document.getElementById('root')
-);
+ReactDOM.render(<App resume={resume} />, document.getElementById('root'));
