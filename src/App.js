@@ -2,6 +2,7 @@
 
 import React from 'react';
 import ContactDetails from './ContactDetails';
+import Introduction from './Introduction';
 import Education from './Education';
 import WorkDetails from './WorkDetails';
 import WorkHistory from './WorkHistory';
@@ -12,6 +13,7 @@ import type { Resume } from './types';
 
 const App = ({ resume }: { resume: Resume }) => {
   const {
+    intro,
     personal,
     location,
     profiles = [],
@@ -27,6 +29,7 @@ const App = ({ resume }: { resume: Resume }) => {
         <header>
           <h1>{personal.preferredName}</h1>
         </header>
+        <Introduction md={intro} />
         <ContactDetails
           preferredName={personal.preferredName}
           email={personal.email}

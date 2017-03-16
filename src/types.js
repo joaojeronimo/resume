@@ -4,6 +4,8 @@ export type Personal = {
   email: string,
 };
 
+export type Intro = string;
+
 export type Location = {
   city: string,
   country: string,
@@ -42,6 +44,7 @@ export type Work = {
 };
 
 export type Resume = {
+  intro: Intro,
   personal: Personal,
   location: Location,
   profiles?: Profile[],

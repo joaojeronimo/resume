@@ -8,6 +8,7 @@
     "city": "Sydney",
     "country": "Australia"
   },
+  "intro": "I am a Sydney-based software engineer passionate about building and evolving reliable systems quickly. During my career I have developed front-ends, back-ends and ops automation projects for e-commerce, accounting and social networking sites. I am deeply passionate about automation and continuous delivery as I have seen them applied to greatly reduce impact of project risks (e.g. missing deadlines or breaking on manual deploys). I love working with energetic teams that want to move fast and ship amazing products. My tools are React, Go, Node.js, Terraform, ConcourseCI and AWS.",
   "profiles": [
     {
       "name": "Github",
