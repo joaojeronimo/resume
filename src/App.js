@@ -2,6 +2,7 @@
 
 import React from 'react';
 import ContactDetails from './ContactDetails';
+import Eligibilities from './Eligibilities';
 import Introduction from './Introduction';
 import Education from './Education';
 import WorkDetails from './WorkDetails';
@@ -16,6 +17,7 @@ const App = ({ resume }: { resume: Resume }) => {
     intro,
     personal,
     location,
+    eligibilities = [],
     profiles = [],
     education = [],
     projects = [],
@@ -36,13 +38,14 @@ const App = ({ resume }: { resume: Resume }) => {
           city={location.city}
           country={location.country}
         />
-        {profiles.length && <Profiles list={profiles} />}
-        {work.length && <WorkHistory list={work} />}
-        {skills.length && <Skills list={skills} />}
-        {projects.length && <Projects list={projects} />}
-        {education.length && <Education list={education} />}
+        {!!profiles.length && <Profiles list={profiles} />}
+        {!!eligibilities.length && <Eligibilities list={eligibilities} />}
+        {!!work.length && <WorkHistory list={work} />}
+        {!!skills.length && <Skills list={skills} />}
+        {!!projects.length && <Projects list={projects} />}
+        {!!education.length && <Education list={education} />}
         <div className="page-break" />
-        {work.length && <WorkDetails list={work} />}
+        {!!work.length && <WorkDetails list={work} />}
 
         <aside className="text-right">
           <p>

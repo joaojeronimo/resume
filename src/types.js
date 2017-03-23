@@ -17,6 +17,8 @@ export type Profile = {
   website: string,
 };
 
+export type Eligibility = string;
+
 export type Education = {
   institution: string,
   qualification: string,
@@ -47,6 +49,7 @@ export type Resume = {
   intro: Intro,
   personal: Personal,
   location: Location,
+  eligibilities?: Eligibility[],
   profiles?: Profile[],
   education?: Education[],
   work?: Work[],
