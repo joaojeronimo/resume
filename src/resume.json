@@ -8,7 +8,7 @@
     "city": "Sydney",
     "country": "Australia"
   },
-  "intro": "I am a Sydney-based software engineer passionate about building and evolving reliable systems quickly. During my career I have developed front-ends, back-ends and ops automation projects for e-commerce, accounting and social networking sites. I am deeply passionate about automation and continuous delivery as I have seen them applied to greatly reduce impact of project risks (e.g. missing deadlines or breaking on manual deploys). I love working with energetic teams that want to move fast and ship amazing products. My tools are React, Go, Node.js, Terraform, ConcourseCI and AWS.",
+  "intro": "I am a Sydney-based software engineer passionate about building and evolving reliable systems quickly. During my career, I have developed front-ends, back-ends and ops automation projects for e-commerce, accounting and social networking sites. I am deeply passionate about automation and continuous delivery as I have seen them applied to greatly reduce impact of project risks (e.g. missing deadlines or breaking on manual deploys). I love working with energetic teams that want to move fast and ship amazing products. My tools are React, Go, Node.js, Terraform, ConcourseCI and AWS.",
   "profiles": [
     {
       "name": "Github",
@@ -116,7 +116,7 @@
       "highlights": [
         "Develop the technical roadmap for our project alongside our feature roadmap",
         "Develop in our codebases just like all the developers in my team, introduce **Docker** and **AWS ECS** to assist in developing and deploying micro-services quickly, review pull requests and coach team members on coding standards and quality",
-        "Introduce continuous delivery practices by deploying and migrating to **ConcourseCI** from our previously abandoned GoCD snowflake server (built by contractors that have since left). We have seen a great increase in reliable deployments everyday since its introduction.",
+        "Introduce continuous delivery practices by deploying and migrating to **ConcourseCI** from our previously abandoned GoCD snowflake server (built by contractors that have since left). We have seen a great increase in reliable deployments every day since its introduction.",
         "AWS infrastructure automation using **Terraform** and improving our logging, monitoring and alerting practices by using tools such as **Bunyan, Splunk, NewRelic, AWS CloudWatch and Pagerduty**",
         "Contribute to and maintain the company's shared stylesheet and [React widgets](https://myob-technology.github.io/myob_widgets/) project",
         "Take part in working groups to develop company standards for our ops, front-end and back-end practices. These revolve around our use of AWS, Terraform, React and Node.js",
@@ -131,10 +131,10 @@
       "organization": "The Ticket Fairy",
       "website": "https://www.theticketfairy.com",
       "position": "Consultant Software Engineer",
-      "description": "I joined The Ticket Fairy, an events management platform, as it's first developer. I worked on building the next version of the platform using modern and open tools.",
+      "description": "I joined The Ticket Fairy, an events management platform, as its first developer. I worked on building the next version of the platform using modern and open tools.",
       "highlights": [
         "Redeveloped the main site with new brand identity",
-        "Built the an overhauled events management dashboard for events organisers using React, Redux and AdminLTE",
+        "Built an overhauled events management dashboard for events organisers using React, Redux and AdminLTE",
         "Created a link shortener using Go and RethinkDB similar to bit.ly. It allows users specifies to setup multiple links of which one is chosen randomly or based on a visitor's country (uses MaxMind GeoIP2)",
         "Deployed and managed a Mesosphere + CoreOS cluster that runs a small set of dockerized services. It was intended to support more and more services as they are developed."
       ]
